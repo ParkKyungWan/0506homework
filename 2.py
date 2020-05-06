@@ -5,7 +5,8 @@ while j<=MAX:
     for n in range(3):
         i=i+j
         i,j=j,i
-    answer+= j if (j<=MAX) else 0;
+    if (j <= MAX):
+        answer+= j
 print(answer)
 
 
